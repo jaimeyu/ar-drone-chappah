@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Drone Command</title>
+		<meta name="author" content="Elvis-Philip Niyonkuru">
+		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="drone.js"></script>
+		<link type="text/css" rel="stylesheet" href="layout.css" />
+	</head>
+	<body onkeyup="onKeyUp(event)" onkeydown="onKeyDown(event)">
+		<div class="drone-div--content">
+			<header class="drone-header--page-header">
+				<h1 class="drone-h1">Drone Command</h1>
+			</header>
+			<section class="drone-section">
+				<h1>Drone Setup</h1>
+				<div class="drone-div">
+					Connect to
+					<input type="text" class="drone-input--hostname" placeholder="Hostname or IP"/> 
+					via 
+					<input type="number" class="drone-input--port" placeholder="Port" />
+					<br /> <br />
+					Mouse 
+					<input type="number" class="drone-input--mouse" placeholder="steps" value="10" />
+				</div>
+			</section>
+			<section class="drone-section">
+				<h1>Control Pad</h1>
+				<div class="drone-div--control-pad" onclick="onControlPadClick(event)"
+				onmouseover="onPadMouseOver(event)" onmousemove="onPadMouseMove(event)"
+				onmouseout="onPadMouseOut">
+					<div class="drone-div--control-pad-message">Click here to activate.</div>
+					<div class="drone-div--control-pad-keys"></div>
+				</div>
+			</section>
+			<footer>
+			</footer>
+		</div>
+	</body>
+</html>

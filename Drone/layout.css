@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #ECECEC;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+.drone-div--content {
+	background: #FFFFFF;
+	width: 800px;
+	margin: auto auto;
+	border-left: solid 1px #C2C2C2;
+	border-right: solid 1px #C2C2C2;
+	border-bottom: solid 1px #C2C2C2;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 10px;
+}
+
+.drone-header--page-header, .drone-section {
+	border-bottom: solid 1px #C2C2C2;
+}
+
+.drone-section {
+	padding: 10px;
+}
+
+.drone-section:last-of-type {
+	border: none;
+}
+
+.drone-header--page-header .drone-h1 {
+	margin: 0px;
+}
+
+.drone-div--control-pad {
+	margin: auto auto;
+	text-align: center;
+	width: 200px;
+	min-height: 200px;
+	background: #ECECEC;
+	border: solid 1px #C2C2C2;
+	border-radius: 10px;
+}
+
+.drone-div--control-pad-keys {
+	margin: auto auto;
+	font-size: 50px;
+}
